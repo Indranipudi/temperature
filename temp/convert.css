@@ -1,0 +1,91 @@
+/* Styling for the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the title section */
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    font-size: 28px;
+    color:white;
+  }
+  
+  /* Styling for temperature input sections */
+  #celsius,
+  #fahrenheit,
+  #kelvin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .icon {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
+  /* Styling for the "All Clear" button */
+  .button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for the temperature icon */
+  .Temperature-icon {
+    font-size: 48px;
+    color: #007bff;
+  }
+  
+  /* Responsive layout adjustments */
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      border-radius: 0;
+    }
+  
+    input[type="number"] {
+      font-size: 14px;
+    }
+  
+    .icon {
+      font-size: 18px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
